@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="EcoTravel Adventures - Booking">
+  <title>Booking - EcoTravel Adventures</title>
+  <link rel="icon" href="images/favicon.ico">
+  <link rel="stylesheet" href="css/styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Lora&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+      <nav class="navbar" role="navigation" aria-label="Main Navigation">
+        <div class="logo"><a href="index.html" style="color:#fff;">EcoTravel Adventures</a></div>
+        <ul class="nav-list" role="menubar">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="destinations.html">Destinations</a></li>
+          <li><a href="things-to-do.html">Things To Do</a></li>
+          <li><a href="events.html">Events</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="resources.html">Resources</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="booking.html">Booking</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    
+<main class="container">
+  
+<section>
+  <h2>Book an Eco-Trip</h2>
+  <form class="card" action="#" method="post">
+    <label for="fullname">Full Name</label>
+    <input id="fullname" class="form-control" name="fullname" type="text" required>
+
+    <label for="trip">Choose Trip</label>
+    <select id="trip" class="form-control" name="trip">
+      <option value="forest">Misty Forest Trails</option>
+      <option value="coast">Coastal Cleanup Beach</option>
+    </select>
+
+    <label for="date">Preferred Date</label>
+    <input id="date" class="form-control" name="date" type="date">
+
+    <fieldset>
+      <legend>Travel Options</legend>
+      <label><input type="radio" name="option" value="standard" checked> Standard</label>
+      <label><input type="radio" name="option" value="premium"> Premium</label>
+    </fieldset>
+
+    <button type="submit" style="background:#F2B632;color:#000;border:none;padding:0.6rem 1rem;border-radius:4px;">Request Booking</button>
+  </form>
+</section>
+
+</main>
+<footer>
+  <p>&copy; 2025 EcoTravel Adventures. Designed for an academic project.</p>
+  <p><a href="privacy.html" style="color:#bbb;">Privacy</a> | <a href="contact.html" style="color:#bbb;">Contact</a></p>
+</footer>
+</body>
+</html>
